@@ -1,0 +1,8 @@
+{
+  "version": "v1",
+  "packages": {
+    "@payright/web-components": {
+      "signature": "1330fab8c4f299e8cdad97913b71dcff"
+    }
+  }
+}

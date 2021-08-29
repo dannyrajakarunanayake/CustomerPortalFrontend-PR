@@ -1,0 +1,81 @@
+{
+  "name": "logging-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hookform/error-message": "0.0.2",
+    "@prisma/client": "^2.13.1",
+    "@types/payment": "^2.1.3",
+    "axios": "^0.19.2",
+    "envfile": "^4.5.0",
+    "file-system": "^2.2.2",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "payment": "^2.4.0",
+    "react-cool-onclickoutside": "^1.5.6",
+    "react-flexbox-grid": "^2.1.2",
+    "react-hook-form": "^5.7.2",
+    "react-tooltip": "^3.11.1",
+    "redux": "^4.0.5",
+    "use-places-autocomplete": "^1.3.11"
+  },
+  "devDependencies": {
+    "@hookform/devtools": "^1.2.1",
+    "@payright/web-components": "^1.0.0-develop.22",
+    "@reduxjs/toolkit": "1.2.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.38",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.0",
+    "babel-jest": "^25.1.0",
+    "husky": "^4.2.5",
+    "jest": "^25.1.0",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "PORT=3002 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
